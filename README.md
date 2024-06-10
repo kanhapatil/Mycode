@@ -65,3 +65,19 @@
 });
 
 </script>
+
+
+
+
+
+<script>
+    document.getElementById("manuscript").addEventListener("click", function (event) { 
+        window.location.href = '/profile/?manuscript'
+        $('#manuscript').click();
+       }) 
+
+    document.getElementById("saved_list").addEventListener("click", function (event) {
+        window.location.href = '/profile/?saved_list'
+        $('#saved_list').click();
+    })
+</script>
